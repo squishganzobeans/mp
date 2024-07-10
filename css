@@ -1,0 +1,46 @@
+#us-map{
+  display: block;
+  position: center;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 100px; 
+    box-sizing: border-box;
+}
+path:hover, circle:hover {
+  stroke: #91387b !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #91387b !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #91387b !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #91387b;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Avenir;
+}
+      #info-box a[href^="tel"] {
+            color:#91387b; 
+        }
+        #info-box a[href^="mailto"] {
+            color:#91387b; 
+        }
+#title {
+ font-family: Avenir;
+ font-size: 15px;
+ font-style: bold;
+ color: #91387b;
+}
